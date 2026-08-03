@@ -1,4 +1,4 @@
-# AxiaAgro TechDocs
+# TechDocs
 
 Base pública e sanitizada de conhecimento técnico da AxiaAgro, construída com Markdown e Material for MkDocs.
 
