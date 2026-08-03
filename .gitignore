@@ -1,0 +1,17 @@
+.venv/
+site/
+__pycache__/
+.env
+*.log
+*.pfx
+*.pem
+*.key
+*.cer
+Logs/
+Relatorios/
+Rollback/
+Evidencias/
+Exports/
+Temp/
+secrets.json
+credentials.json
