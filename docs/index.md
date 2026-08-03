@@ -5,7 +5,7 @@ title: Início
 <section class="hero">
   <div>
     <div class="eyebrow">Conhecimento que cultiva segurança</div>
-    <h1>AxiaAgro TechDocs</h1>
+    <h1>TechDocs</h1>
     <p>Base pública e sanitizada de procedimentos, padrões operacionais e referências técnicas para o time de Tecnologia da Informação.</p>
     <a class="md-button md-button--primary" href="procedimentos/">Explorar procedimentos</a>
     <a class="md-button" href="governanca/politica-documentacao/">Conhecer o padrão</a>
