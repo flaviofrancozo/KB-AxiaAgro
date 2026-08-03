@@ -1,6 +1,6 @@
 # TechDocs
 
-Base pública e sanitizada de conhecimento técnico da AxiaAgro, construída com Markdown e Material for MkDocs.
+Base pública e sanitizada de conhecimento técnico, construída com Markdown e Material for MkDocs.
 
 > **Segurança:** este repositório é público. Não publique dados reais do tenant, usuários, dispositivos, IDs, endereços internos, logs, evidências, segredos, tokens, certificados ou chaves.
 
