@@ -19,3 +19,7 @@ Acesse `http://127.0.0.1:8000`.
 O workflow em `.github/workflows/publicar.yml` publica automaticamente o portal no GitHub Pages após alterações aprovadas na branch `main`.
 
 Consulte [CONTRIBUTING.md](CONTRIBUTING.md) antes de incluir ou alterar conteúdo.
+
+
+
+Teste de publicação automática no Cloudflare Workers — 03/08/2026
