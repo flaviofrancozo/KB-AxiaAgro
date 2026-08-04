@@ -1,5 +1,11 @@
-# AxiaAgro Knowledge Base — Portal da Empresa
+# Portal da Empresa
 
-Base técnica versionada para governança, implantação e operação do Microsoft Intune Company Portal.
+Documentação operacional do Portal da Empresa da AxiaAgro.
 
-> Não armazene tokens, chaves, IDs privados, instaladores ou dados pessoais neste repositório.
+| Documento | Uso |
+|---|---|
+| Governança | Controles, papéis, aprovação e auditoria |
+| Implementação | Implantar e personalizar o Company Portal |
+| Aplicativos | Publicar, detectar, atribuir e monitorar |
+
+**Versão:** 1.0 — **Atualização:** 28/07/2026 — **Dono:** Infraestrutura de TI
