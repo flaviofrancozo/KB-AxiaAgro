@@ -145,6 +145,18 @@ body { -webkit-font-smoothing: antialiased; }
 .md-typeset pre code { overflow-wrap: normal; }
 .md-sidebar__scrollwrap { scrollbar-width: thin; }
 
+/* Recuo e marcador automáticos nos itens internos das categorias */
+.md-nav--primary .md-nav .md-nav__link {
+  padding-left: .75rem;
+}
+.md-nav--primary .md-nav .md-nav__link::before {
+  content: "•";
+  display: inline-block;
+  margin-right: .45rem;
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
+
 @media screen and (max-width: 76.234375em) {
   .md-main__inner { margin-top: 1rem; }
 }
@@ -176,18 +188,4 @@ body { -webkit-font-smoothing: antialiased; }
   html { scroll-behavior: auto; }
   .card,
   .hero .md-button { transition: none; }
-}
-
-
-/* Marcador e recuo para documentos dentro das categorias do menu */
-.md-nav--primary .md-nav .md-nav__link {
-  padding-left: 0.75rem;
-}
-
-.md-nav--primary .md-nav .md-nav__link::before {
-  content: "•";
-  display: inline-block;
-  margin-right: 0.45rem;
-  color: var(--md-accent-fg-color);
-  font-weight: 700;
 }
