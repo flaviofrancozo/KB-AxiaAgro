@@ -1,11 +1,25 @@
-# Portal da Empresa
+# Governança do Portal da Empresa
 
-Documentação operacional do Portal da Empresa da AxiaAgro.
+## Objetivo
 
-| Documento | Uso |
-|---|---|
-| Governança | Controles, papéis, aprovação e auditoria |
-| Implementação | Implantar e personalizar o Company Portal |
-| Aplicativos | Publicar, detectar, atribuir e monitorar |
+Controlar o ciclo de vida dos aplicativos publicados no Microsoft Intune, da solicitação à retirada.
 
-**Versão:** 1.0 — **Atualização:** 28/07/2026 — **Dono:** Infraestrutura de TI
+## Controles obrigatórios
+
+1. Registrar dono, finalidade, público, licença e origem.
+2. Validar assinatura, comandos silenciosos, requisitos e reinício.
+3. Definir detecção que evite reinstalação e downgrade.
+4. Homologar em piloto e registrar evidências.
+5. Aprovar a atribuição definitiva.
+6. Monitorar instalado, falha, pendente e não aplicável.
+7. Retirar atribuições antes de excluir pacotes antigos.
+
+## Segredos
+
+Tokens, chaves e IDs privados não podem aparecer em GitHub, logs, screenshots ou scripts versionados.
+
+## Estado registrado em 28/07/2026
+
+- Portal da Empresa: implantado e validado.
+
+
