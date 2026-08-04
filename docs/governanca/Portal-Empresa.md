@@ -21,6 +21,9 @@ Tokens, chaves e IDs privados não podem aparecer em GitHub, logs, screenshots o
 ## Estado registrado em 28/07/2026
 
 - Portal da Empresa: implantado e validado.
-- TeamViewer Host 15.79.4 Win32: piloto aprovado e produção atribuída a Todos os dispositivos.
-- TeamViewer 15.43.7: sem atribuições e sem desinstalação forçada.
-- Pendências: monitoramento final, rotação do token exposto e decisão de exclusão do pacote antigo.
+- Link para o procedimento executado
+
+## Documentação executiva
+
+A documentação executiva utilizada como evidência de governança e auditoria está disponível abaixo:
+(.../Governanca/PortalEmpresa/)
