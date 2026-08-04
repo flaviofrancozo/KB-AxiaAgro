@@ -177,3 +177,17 @@ body { -webkit-font-smoothing: antialiased; }
   .card,
   .hero .md-button { transition: none; }
 }
+
+
+/* Marcador e recuo para documentos dentro das categorias do menu */
+.md-nav--primary .md-nav .md-nav__link {
+  padding-left: 0.75rem;
+}
+
+.md-nav--primary .md-nav .md-nav__link::before {
+  content: "•";
+  display: inline-block;
+  margin-right: 0.45rem;
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
