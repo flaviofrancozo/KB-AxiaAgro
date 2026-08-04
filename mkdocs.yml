@@ -84,8 +84,10 @@ nav:
       - Visão geral: cyberseguranca/index.md
   - Infraestrutura:
       - Visão geral: infraestrutura/index.md
-  - Procedimentos: procedimentos/index.md
-      - procedimentos: implementar-personalizar-portal-empresa.md
+  - Procedimentos:
+        - Procedimentos:
+      - Visão geral: procedimentos/index.md
+      - Portal da Empresa: procedimentos/implementar-personalizar-portal-empresa.md
   - Troubleshooting: troubleshooting/index.md
   - Scripts: scripts/index.md
   - Histórico: changelog/index.md
