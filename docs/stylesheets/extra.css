@@ -145,13 +145,26 @@ body { -webkit-font-smoothing: antialiased; }
 .md-typeset pre code { overflow-wrap: normal; }
 .md-sidebar__scrollwrap { scrollbar-width: thin; }
 
-/* Recuo e marcador automáticos nos itens internos das categorias */
-.md-nav--primary .md-nav .md-nav__link {
-  padding-left: .75rem;
+/* Hierarquia legível no menu lateral: categorias sem marcador e páginas com marcador */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 15rem;
+  }
 }
-.md-nav--primary .md-nav .md-nav__link::before {
+
+.md-nav--primary .md-nav__item--nested > .md-nav__link {
+  padding-left: .35rem;
+  font-weight: 700;
+}
+
+.md-nav--primary .md-nav__item:not(.md-nav__item--nested) > .md-nav__link {
+  padding-left: 1rem;
+}
+
+.md-nav--primary .md-nav__item:not(.md-nav__item--nested) > .md-nav__link::before {
   content: "•";
   display: inline-block;
+  flex: 0 0 auto;
   margin-right: .45rem;
   color: var(--md-accent-fg-color);
   font-weight: 700;
