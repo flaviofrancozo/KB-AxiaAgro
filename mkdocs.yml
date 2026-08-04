@@ -85,8 +85,8 @@ nav:
   - Infraestrutura:
       - Visão geral: infraestrutura/index.md
   - Procedimentos:
-        - Visão geral: index.md
-         - Portal da Empresa: procedimentos/implementar-personalizar-portal-empresa.md
+      - Visão geral: index.md
+      - Portal da Empresa: procedimentos/implementar-personalizar-portal-empresa.md
   - Troubleshooting: troubleshooting/index.md
   - Scripts: scripts/index.md
   - Histórico: changelog/index.md
