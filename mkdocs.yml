@@ -78,15 +78,44 @@ nav:
       - Visão geral: entra-id/index.md
   - Intune:
       - Visão geral: intune/index.md
+      - Portal da Empresa:
+          - Visão geral: intune/portal-empresa/index.md
+          - Governança:
+              - Visão geral: intune/portal-empresa/governanca/index.md
+              - Governança do Portal: intune/portal-empresa/governanca/Portal-Empresa.md
+              - Papéis e responsabilidades: intune/portal-empresa/governanca/papeis-responsabilidades.md
+              - Riscos e controles: intune/portal-empresa/governanca/riscos-controles.md
+          - Implantação e Personalização:
+              - Visão geral: intune/portal-empresa/implantacao/index.md
+              - Implementar e personalizar: intune/portal-empresa/implantacao/implementar-personalizar-portal-empresa.md
+              - Checklist de implantação: intune/portal-empresa/implantacao/checklist-implantacao.md
+          - Aplicativos:
+              - Visão geral: intune/portal-empresa/aplicativos/index.md
+              - Como adicionar: intune/portal-empresa/aplicativos/adicionar-aplicativos.md
+              - Google Chrome: intune/portal-empresa/aplicativos/google-chrome.md
+              - TeamViewer Host: intune/portal-empresa/aplicativos/teamviewer-host.md
+          - Operação:
+              - Visão geral: intune/portal-empresa/operacao/index.md
+              - Monitoramento no Intune: intune/portal-empresa/operacao/monitoramento-intune.md
+              - Atualização e retirada: intune/portal-empresa/operacao/atualizacao-retirada.md
+          - Solução de Problemas:
+              - Visão geral: intune/portal-empresa/troubleshooting/index.md
+              - Erros comuns: intune/portal-empresa/troubleshooting/erros-comuns.md
+          - Evidências:
+              - Orientações: intune/portal-empresa/evidencias/index.md
+              - Registro de implantação: intune/portal-empresa/evidencias/registro-implantacao.md
+          - Templates:
+              - Visão geral: intune/portal-empresa/modelos/index.md
+              - Novo aplicativo: intune/portal-empresa/modelos/template-novo-aplicativo.md
+              - Novo procedimento: intune/portal-empresa/modelos/template-procedimento.md
+              - Registro de mudança: intune/portal-empresa/modelos/template-registro-mudanca.md
   - Defender:
       - Visão geral: defender/index.md
   - Cybersegurança:
       - Visão geral: cyberseguranca/index.md
   - Infraestrutura:
       - Visão geral: infraestrutura/index.md
-  - Procedimentos:
-      - Visão geral: procedimentos/index.md
-      - Portal da Empresa: procedimentos/implementar-personalizar-portal-empresa.md
+  - Procedimentos: procedimentos/index.md
   - Troubleshooting: troubleshooting/index.md
   - Scripts: scripts/index.md
   - Histórico: changelog/index.md
