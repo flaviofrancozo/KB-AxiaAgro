@@ -1,0 +1,14 @@
+# Mesclar manualmente dentro da seção nav: existente do mkdocs.yml.
+# Não substituir o nav atual.
+
+- Processos:
+    - Automações:
+        - Atualiza BLUE V2: processos/automacoes/atualiza-blue-v2/index.md
+
+- Governança:
+    - Automações:
+        - Atualiza BLUE V2: governanca/automacoes/atualiza-blue-v2/index.md
+
+- Evidências:
+    - Atualiza BLUE V2: evidencias/atualiza-blue-v2/index.md
+

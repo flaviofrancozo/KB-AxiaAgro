@@ -1,0 +1,21 @@
+============================================================
+ LOG PRINCIPAL - DISTRIBUIÇÃO DE ARQUIVOS POR HASH
+ Evidência sanitizada — dados fictícios
+============================================================
+Data: 06/08/2026 23:30:00
+Origem: D:\PERFIL\TEMP\PACOTE_APROVADO
+Hashes inventariados: 3
+
+===== CICLO 1 =====
+[SUCESSO] 00000000-0000-0001
+[PENDENTE] 00000000-0000-0002 | Robocopy 8
+[SUCESSO] 00000000-0000-0003
+Conclusão geral: 66,7%
+
+===== CICLO 2 =====
+[SUCESSO] 00000000-0000-0002
+Conclusão geral: 100%
+
+Resultado final: todos os destinos concluídos.
+Ciclos executados: 2
+
