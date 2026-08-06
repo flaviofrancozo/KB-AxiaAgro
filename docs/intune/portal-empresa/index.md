@@ -54,13 +54,25 @@ title: Portal da Empresa
   </a>
   <a class="card" href="evidencias/">
     <span class="card__icon">▤</span>
-    <h3>Evidências e Modelos</h3>
-    <p>Registros auditáveis e modelos para novas publicações.</p>
+    <h3>Evidências</h3>
+    <p>Orientações e registros sanitizados para acompanhamento da implantação.</p>
     <span class="card__link">Acessar evidências →</span>
+  </a>
+  <a class="card" href="modelos/">
+    <span class="card__icon">MOD</span>
+    <h3>Templates</h3>
+    <p>Modelos padronizados para aplicativos, procedimentos e registros de mudança.</p>
+    <span class="card__link">Acessar templates →</span>
+  </a>
+  <a class="card" href="LEIA-ME/">
+    <span class="card__icon">VER</span>
+    <h3>Notas da versão</h3>
+    <p>Registro da estrutura, do conteúdo e da evolução desta documentação.</p>
+    <span class="card__link">Consultar notas →</span>
   </a>
 </div>
 
 !!! info "Estrutura prática para consulta"
-    Use o menu lateral para abrir cada área. Os documentos internos aparecem recuados e com marcador.
+    Use os cards para abrir cada área e navegar pelos documentos internos.
 
 **Versão:** 1.1 — **Atualização:** 04/08/2026 — **Responsável:** Infraestrutura de TI

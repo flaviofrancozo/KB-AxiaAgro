@@ -2,30 +2,22 @@
 title: Início
 ---
 
-<section class="hero">
-  <div class="hero__content">
-    <div class="eyebrow">Conhecimento que cultiva segurança</div>
-    <h1>TechDocs</h1>
-    <p>Base pública e sanitizada de procedimentos, padrões operacionais e referências técnicas para o time de Tecnologia da Informação.</p>
-    <div class="hero__actions">
-      <a class="md-button md-button--primary" href="procedimentos/">Explorar procedimentos</a>
-      <a class="md-button" href="governanca/politica-documentacao/">Conhecer o padrão</a>
-    </div>
-  </div>
-  <div class="hero__visual" aria-hidden="true">
-    <span class="hero__ring hero__ring--outer"></span>
-    <span class="hero__ring hero__ring--inner"></span>
-    <img src="assets/logo.svg" alt="">
-  </div>
-</section>
+## Acessos rápidos
 
-!!! warning "Repositório público"
-    Use somente exemplos fictícios. Evidências, relatórios, logs, rollbacks e dados reais devem permanecer em repositório interno protegido.
+<div class="cards cards--home">
+  <a class="card card--featured" href="intune/portal-empresa/"><span class="card__icon">PE</span><h3>Portal da Empresa</h3><p>Implantação, aplicativos, operação, governança e suporte dentro do Microsoft Intune.</p><span class="card__link">Abrir portal →</span></a>
+  <a class="card" href="microsoft-365/"><span class="card__icon">M365</span><h3>Microsoft Cloud</h3><p>Microsoft 365, Exchange Online e serviços integrados.</p><span class="card__link">Acessar conteúdo →</span></a>
+  <a class="card" href="governanca/"><span class="card__icon">GOV</span><h3>Governança</h3><p>Políticas, classificação da informação e publicação segura.</p><span class="card__link">Ver governança →</span></a>
+  <a class="card" href="troubleshooting/"><span class="card__icon">SUP</span><h3>Suporte</h3><p>Diagnósticos e soluções para ocorrências operacionais.</p><span class="card__link">Consultar soluções →</span></a>
+</div>
 
-<div class="cards">
-  <a class="card" href="microsoft-365/"><span class="card__icon">☁</span><h3>Microsoft Cloud</h3><p>Entra ID, Microsoft 365, Exchange Online, Intune e Defender.</p><span class="card__link">Acessar conteúdo →</span></a>
-  <a class="card" href="governanca/"><span class="card__icon">✓</span><h3>Operação segura</h3><p>Procedimentos com prévia, aprovação, validação, evidência e rollback.</p><span class="card__link">Ver governança →</span></a>
-  <a class="card" href="troubleshooting/"><span class="card__icon">⌕</span><h3>Suporte eficiente</h3><p>Busca rápida por solução, erro, serviço ou tarefa operacional.</p><span class="card__link">Consultar soluções →</span></a>
+## Projetos e áreas
+
+<div class="cards cards--home">
+  <a class="card" href="entra-id/"><span class="card__icon">ID</span><h3>Entra ID</h3><p>Identidade, acesso e recursos relacionados ao diretório corporativo.</p><span class="card__link">Acessar área →</span></a>
+  <a class="card" href="defender/"><span class="card__icon">DEF</span><h3>Defender</h3><p>Proteção, segurança e referências dos serviços Microsoft Defender.</p><span class="card__link">Acessar área →</span></a>
+  <a class="card" href="cyberseguranca/"><span class="card__icon">CYB</span><h3>Cybersegurança</h3><p>Orientações e conteúdos para proteção do ambiente tecnológico.</p><span class="card__link">Acessar área →</span></a>
+  <a class="card" href="infraestrutura/"><span class="card__icon">INF</span><h3>Infraestrutura</h3><p>Documentação técnica dos recursos e serviços de infraestrutura.</p><span class="card__link">Acessar área →</span></a>
 </div>
 
 ## Comece por aqui

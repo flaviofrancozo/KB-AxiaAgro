@@ -1,5 +1,11 @@
 # Governança do Portal da Empresa
 
+Registro legado sobre os controles e o ciclo de vida dos aplicativos publicados no Microsoft Intune.
+
+<div class="cards">
+  <a class="card" href="../Portal-Empresa/"><span class="card__icon">GOV</span><h3>Governança do Portal</h3><p>Documento legado com objetivo, escopo, controles, responsabilidades e critérios de auditoria.</p><span class="card__link">Abrir documento →</span></a>
+</div>
+
 ## Objetivo
 
 Controlar o ciclo de vida dos aplicativos publicados no Microsoft Intune, da solicitação à retirada.

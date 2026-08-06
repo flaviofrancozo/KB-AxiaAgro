@@ -44,28 +44,13 @@ body { -webkit-font-smoothing: antialiased; }
 .md-header__inner { min-height: 3.35rem; }
 .md-header__button { margin: .15rem; padding: .5rem; }
 .techdocs-identity { display: flex; height: 100%; min-width: 0; flex: 1; align-items: center; }
-.techdocs-signature {
-  display: flex;
-  min-width: 0;
-  align-items: center;
-  gap: 6px;
-  margin-left: 35px;
-}
-.md-header__button.md-logo {
-  display: flex;
-  width: 80px;
-  height: 80px;
-  flex: 0 0 80px;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
+.techdocs-signature { display: flex; min-width: 0; align-items: flex-start; gap: 6px; }
+.md-header__button.md-logo { display: flex; width: 1.6rem; height: 2.65rem; flex: 0 0 1.6rem; align-items: center; justify-content: center; margin: 0 -19px 0 0; padding: 0; }
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  width: 80px;
+  width: 2.65rem;
   max-width: none;
-  height: 80px;
+  height: 2.65rem;
   object-fit: contain;
 }
 .md-header__title {
