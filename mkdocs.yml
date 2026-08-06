@@ -77,6 +77,12 @@ nav:
   - Cybersegurança: cyberseguranca/index.md
   - Infraestrutura: infraestrutura/index.md
   - Procedimentos: procedimentos/index.md
+  - Processos: processos/index.md
   - Troubleshooting: troubleshooting/index.md
-  - Scripts: scripts/index.md
+  - Scripts:
+    - Visão Geral: scripts/index.md
+    - Atualiza BLUE V2:
+        - Procedimento Técnico: processos/automacoes/atualiza-blue-v2/index.md
+        - Governança: governanca/automacoes/atualiza-blue-v2/index.md
+        - Evidências: evidencias/atualiza-blue-v2/index.md
   - Histórico: changelog/index.md
