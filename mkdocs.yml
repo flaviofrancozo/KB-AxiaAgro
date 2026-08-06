@@ -4,19 +4,20 @@ site_author: TechDocs - Tecnologia da Informação
 site_url: https://flaviofrancozo.github.io/KB-AxiaAgro/
 repo_url: https://github.com/flaviofrancozo/KB-AxiaAgro
 repo_name: flaviofrancozo/KB-AxiaAgro
-edit_uri: edit/main/docs/
+edit_uri: edit/agent/redesign-techdocs-v2/docs/
 copyright: Conteúdo público e sanitizado — nunca inclua dados internos ou pessoais.
 
 theme:
   name: material
   language: pt-BR
   custom_dir: overrides
-  logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  logo: assets/images/logo-techdocs-modelo3-final.png
+  favicon: assets/images/favicon-techdocs.png
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - navigation.path
+    - navigation.tracking
     - navigation.top
     - navigation.footer
     - search.suggest
@@ -66,55 +67,15 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Governança:
-      - Visão geral: governanca/index.md
-      - Política de documentação: governanca/politica-documentacao.md
-      - Classificação da informação: governanca/classificacao-informacao.md
-      - Publicar no GitHub: governanca/guia-publicacao-github.md
-  - Microsoft 365:
-      - Visão geral: microsoft-365/index.md
-      - Exchange Online: microsoft-365/exchange-online/index.md
-  - Entra ID:
-      - Visão geral: entra-id/index.md
-  - Intune:
-      - Visão geral: intune/index.md
-      - Portal da Empresa:
-          - Visão geral: intune/portal-empresa/index.md
-          - Governança:
-              - Visão geral: intune/portal-empresa/governanca/index.md
-              - Governança do Portal: intune/portal-empresa/governanca/Portal-Empresa.md
-              - Papéis e responsabilidades: intune/portal-empresa/governanca/papeis-responsabilidades.md
-              - Riscos e controles: intune/portal-empresa/governanca/riscos-controles.md
-          - Implantação e Personalização:
-              - Visão geral: intune/portal-empresa/implantacao/index.md
-              - Implementar e personalizar: intune/portal-empresa/implantacao/implementar-personalizar-portal-empresa.md
-              - Checklist de implantação: intune/portal-empresa/implantacao/checklist-implantacao.md
-          - Aplicativos:
-              - Visão geral: intune/portal-empresa/aplicativos/index.md
-              - Como adicionar: intune/portal-empresa/aplicativos/adicionar-aplicativos.md
-              - Google Chrome: intune/portal-empresa/aplicativos/google-chrome.md
-              - TeamViewer Host: intune/portal-empresa/aplicativos/teamviewer-host.md
-          - Operação:
-              - Visão geral: intune/portal-empresa/operacao/index.md
-              - Monitoramento no Intune: intune/portal-empresa/operacao/monitoramento-intune.md
-              - Atualização e retirada: intune/portal-empresa/operacao/atualizacao-retirada.md
-          - Solução de Problemas:
-              - Visão geral: intune/portal-empresa/troubleshooting/index.md
-              - Erros comuns: intune/portal-empresa/troubleshooting/erros-comuns.md
-          - Evidências:
-              - Orientações: intune/portal-empresa/evidencias/index.md
-              - Registro de implantação: intune/portal-empresa/evidencias/registro-implantacao.md
-          - Templates:
-              - Visão geral: intune/portal-empresa/modelos/index.md
-              - Novo aplicativo: intune/portal-empresa/modelos/template-novo-aplicativo.md
-              - Novo procedimento: intune/portal-empresa/modelos/template-procedimento.md
-              - Registro de mudança: intune/portal-empresa/modelos/template-registro-mudanca.md
-  - Defender:
-      - Visão geral: defender/index.md
-  - Cybersegurança:
-      - Visão geral: cyberseguranca/index.md
-  - Infraestrutura:
-      - Visão geral: infraestrutura/index.md
+  - Governança: governanca/index.md
+  - Documentos legados: governanca/portal-empresa/index.md
+  - Microsoft 365: microsoft-365/index.md
+  - Exchange Online: microsoft-365/exchange-online/index.md
+  - Entra ID: entra-id/index.md
+  - Intune: intune/index.md
+  - Defender: defender/index.md
+  - Cybersegurança: cyberseguranca/index.md
+  - Infraestrutura: infraestrutura/index.md
   - Procedimentos: procedimentos/index.md
   - Troubleshooting: troubleshooting/index.md
   - Scripts: scripts/index.md
